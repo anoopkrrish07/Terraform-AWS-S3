@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicRead",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::051256041544:user/test"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::test-s3-bucket-ak-terraform-test/*"
+        }
+    ]
+}
