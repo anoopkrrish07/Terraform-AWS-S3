@@ -70,3 +70,20 @@ state                Advanced state management
 
 Create an user for the Terraform and a test user.
 
+* Terraform user must have IAM access and S3 access accordigly. Also need access credentials (access key & secret key).
+* test user don't need any permission.
+
+## Terraform files and uses
+
+Here, I have created 3 files.
+
+1. main-latest.tf
+2. variables.tf
+3. bucket-policy.json
+
+> main-latest.tf: This file contains main terraform configuration script.
+
+> variables.tf: This file have the variables that we used instead of giving hard-code in the main file.
+
+> bucket-policy.json: Encapsulated with the AWS s3 bucket policy, which give access to a test user on the bucket.
+
