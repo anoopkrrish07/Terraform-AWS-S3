@@ -66,6 +66,14 @@ All other commands:
 debug              Debug output management (experimental)
 state                Advanced state management
 ```
+Create & move to the "terraform" directory as your working directory.
+
+```
+[root@shazakz src]# cd
+[root@shazakz ~]# mkdir terraform
+[root@shazakz ~]# cd terraform/
+```
+
 ## AWS Configurations
 
 Create an user for the Terraform and a test user.
