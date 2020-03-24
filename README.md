@@ -26,3 +26,47 @@ Note: I have build this environment using Amazon Linux 2, Terraform 0.12 and Vis
 [root@shazakz src]# unzip terraform_0.12.24_linux_amd64.zip
 [root@shazakz src]# mv terraform /usr/local/bin/
 ```
+If you have opted for a different custom path rather than the default path, use this commad to add the custom path.
+
+```
+export PATH=$PATH:/terraform-path/
+```
+Verify the installation of terraform with the following command.
+
+```
+[root@shazakz src]# terraform
+Usage: terraform [--version] [--help] <command> [args]
+The available commands for execution are listed below.
+The most common, useful commands are shown first, followed by
+less common or more advanced commands. If you're just getting
+started with Terraform, stick with the common commands. For the
+other commands, please read the help and docs before usage.
+
+Common commands:
+apply               Builds or changes infrastructure
+console            Interactive console for Terraform interpolations
+destroy            Destroy Terraform-managed infrastructure
+fmt                  Rewrites config files to canonical format
+get                  Download and install modules for the configuration
+graph              Create a visual graph of Terraform resources
+import             Import existing infrastructure into Terraform
+init                  Initializes Terraform configuration from a module
+output             Read an output from a state file
+plan                Generate and show an execution plan
+push               Upload this Terraform module to Atlas to run
+refresh            Update local state file against real resources
+remote            Configure remote state storage
+show               Inspect Terraform state or plan
+taint                Manually mark a resource for recreation
+untaint             Manually unmark a resource as tainted
+validate           Validates the Terraform files
+version            Prints the Terraform version
+
+All other commands:
+debug              Debug output management (experimental)
+state                Advanced state management
+```
+## AWS Configurations
+
+Create an user for the Terraform and a test user.
+
