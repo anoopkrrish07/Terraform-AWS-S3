@@ -93,7 +93,7 @@ Here, I have created 3 files.
 
 > variables.tf: This file have the variables that we used instead of giving hard-code in the main file.
 
-> bucket-policy.json: Encapsulated with the AWS s3 bucket policy, which give access to a test user on the bucket.
+> bucket-policy.json: Encapsulated AWS s3 bucket policy, which give access to a test user on the bucket.
 
 ## Terraform execution
 
