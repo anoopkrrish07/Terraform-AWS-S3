@@ -122,4 +122,4 @@ The terraform apply command is used to apply the changes required to reach the d
 This command is used to generate a visual representation of either a configuration or execution plan. The output is in the DOT format, which can be used by GraphViz to generate charts.
 
 
-##Thanks!!!
+## Thanks!!!
